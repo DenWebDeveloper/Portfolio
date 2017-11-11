@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "My portfolio",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenWebDeveloper/Portfolio.git"
+  },
+  "author": "Denys",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenWebDeveloper/Portfolio/issues"
+  },
+  "homepage": "https://github.com/DenWebDeveloper/Portfolio#readme"
+}
