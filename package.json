@@ -15,5 +15,17 @@
   "bugs": {
     "url": "https://github.com/DenWebDeveloper/Portfolio/issues"
   },
-  "homepage": "https://github.com/DenWebDeveloper/Portfolio#readme"
+  "homepage": "https://github.com/DenWebDeveloper/Portfolio#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-clean-css": "^3.9.0",
+    "gulp-pug": "^3.3.0",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.1"
+  },
+  "dependencies": {
+    "normalize.css": "^7.0.0"
+  }
 }
