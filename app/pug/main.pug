@@ -5,4 +5,13 @@ main.main
 		div.card__name Денис Выхрыстюк
 		div.card__intro Личный сайт веб разработчика
 		div.social
-			ul
+			ul.social__items
+				each val in ['vk', 'git', 'skype']
+					li.social__item
+						a(href="#", class="social__link social__link--#{val}") 
+							| #{val}
+		div.card__links
+			each val in ['Мои работы', 'Обо мне', 'Блог']
+						a(href="#", class="card__link") 
+							| #{val}
+	
